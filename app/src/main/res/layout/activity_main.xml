@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/editlogin"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="sans-serif"
+            android:text="Informe seu login"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Password"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/editpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="Password" />
+
+        <Button
+            android:id="@+id/btnacessar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="150dp"
+            android:text="ACESSAR"
+            tools:ignore="OnClick" />
+
+    </RadioGroup>
+
+
+</LinearLayout>
